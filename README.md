@@ -43,6 +43,10 @@ Work-stealing deques provide three main operations: `push`, `pop`, and
   possibly after merging once (at most once because there is no other tree of
   order _k_ or higher).
 
+![](binomial_forest_steal_1.png)
+![](binomial_forest_steal_2.png)
+![](binomial_forest_steal_3.png)
+
 <!-- References -->
 
 [1]: https://en.wikipedia.org/wiki/Binomial_heap
