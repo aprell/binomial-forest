@@ -14,7 +14,7 @@ rightmost child).
 A binomial tree of order _k_ has 2<sup>_k_</sup> nodes, and the total number
 of nodes in a binomial forest is derived from its binary representation, where
 a '1' at array index _i_ marks the presence of a binomial tree of order _i_
-with 2<sup>_i_</sup> tasks. Thus, a binomial forest of order _n_ has up to
+with 2<sup>_i_</sup> nodes. Thus, a binomial forest of order _n_ has up to
 &#931;<sub>0&le;_i_<_n_</sub> 2<sup>_i_</sup> = 2<sup>_n_</sup>-1 nodes.
 
 Work-stealing deques provide three main operations: `push`, `pop`, and
