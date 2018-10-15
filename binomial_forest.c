@@ -182,7 +182,8 @@ static void binomial_forest_merge(BinomialForest *f, BinomialTree *t)
 
     while (children) {
         BinomialTree *child = children;
-        assert(child->order == --order);
+        order--;
+        assert(child->order == order);
         children = child->siblings;
         child->siblings = NULL;
         f->trees[order] = child;
